@@ -1,0 +1,17 @@
+blinker==1.9.0
+cached-property==2.0.1
+click==8.3.1
+Flask==3.1.2
+flask-marshmallow==1.3.0
+Flask-SQLAlchemy==3.1.1
+inflection==0.5.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+marshmallow==4.2.0
+mypy_extensions==1.1.0
+SQLAlchemy==2.0.45
+sqlalchemy-orm==1.2.10
+typing-inspect==0.9.0
+typing_extensions==4.15.0
+Werkzeug==3.1.5

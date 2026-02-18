@@ -1,8 +1,5 @@
 from flask import Blueprint
 
-customer_bp = Blueprint(
-    'customer',
-    __name__,
-)
+customer_bp = Blueprint("customer", __name__)
 
-from . import routes 
+from . import routes  # noqa: F401,E402

@@ -9,6 +9,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
 marshmallow==4.2.0
+marshmallow-sqlalchemy==1.4.1
 mypy_extensions==1.1.0
 SQLAlchemy==2.0.45
 sqlalchemy-orm==1.2.10

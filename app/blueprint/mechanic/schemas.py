@@ -1,16 +1,13 @@
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
-from app.models import Customer
+from app.models import Mechanic
 from app.extensions import db
 
-
-
-class CustomerSchema(SQLAlchemyAutoSchema):
+class MechanicSchema(SQLAlchemyAutoSchema):
     class Meta:
-        model = Customer
+        model = Mechanic
         sqla_session = db.session
         load_instance = True
         include_fk = True
 
-
-customer_schema = CustomerSchema()
-customers_schema = CustomerSchema(many=True)
+mechanic_schema = MechanicSchema()
+mechanics_schema = MechanicSchema(many=True)
